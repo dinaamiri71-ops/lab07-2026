@@ -1,0 +1,32 @@
+# Задание 2
+cp /usr/include/sys/types.h ~/equipment
+mkdir ~/ski.plases
+mv ~/equipment ~/ski.plases/
+mv ~/ski.plases/equipment ~/ski.plases/equiplist
+touch ~/abc1
+cp ~/abc1 ~/ski.plases/equiplist2
+mkdir ~/ski.plases/equipment
+mv ~/ski.plases/equiplist ~/ski.plases/equipment/
+mv ~/ski.plases/equiplist2 ~/ski.plases/equipment/
+mkdir ~/newdir
+mv ~/newdir ~/ski.plases/plans
+
+# Задание 3
+mkdir australia && chmod 744 australia
+mkdir play && chmod 711 play
+touch my_os && chmod 544 my_os
+touch feathers && chmod 664 feathers
+
+# Задание 4
+cat /etc/passwd
+cp ~/feathers ~/file.old
+mv ~/file.old ~/play/
+cp -r ~/play ~/fun
+mv ~/fun ~/play/games
+chmod u-r ~/feathers
+cat ~/feathers
+chmod u+r ~/feathers
+chmod u-x ~/play
+cd ~/play
+chmod u+x ~/play
+cd ~/play
